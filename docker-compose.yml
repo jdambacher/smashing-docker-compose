@@ -1,0 +1,8 @@
+dashing:
+  image: frvi/dashing
+  volumes:
+    - ./dashboards:/dashboards
+    - ./jobs:/jobs
+    - ./assets:/assets
+    - ./widgets:/widgets
+    - ./config:/config
