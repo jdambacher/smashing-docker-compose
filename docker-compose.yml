@@ -6,3 +6,5 @@ dashing:
     - ./assets:/assets
     - ./widgets:/widgets
     - ./config:/config
+  ports:
+    - "8080:3030"
